@@ -144,10 +144,9 @@
   {
     "url": "https://glossary.cncf.io/software-as-a-service",
     "srcUrl": "https://github.com/cncf/glossary/blob/main/content/en/software-as-a-service.md",
-    "title": "",
-    "Title": "Software as a Service (SaaS)",
-    "Status": "Deprecated",
-    "Category": "Technology",
+    "title": "Software as a Service (SaaS)",
+    "status": "Deprecated",
+    "category": "Technology",
     "draft": true,
     "tags": [
       "fundamental",
@@ -250,10 +249,9 @@
   {
     "url": "https://glossary.cncf.io/serverless",
     "srcUrl": "https://github.com/cncf/glossary/blob/main/content/en/serverless.md",
-    "title": "",
-    "Title": "Serverless",
-    "Status": "Completed",
-    "Category": "Technology",
+    "title": "Serverless",
+    "status": "Completed",
+    "category": "Technology",
     "tags": [
       "architecture"
     ],

@@ -52,7 +52,12 @@ function extractMarkdownData(markdown) {
     data[sectionMatch[1].trim().toLowerCase().replace(/\s+/g, '_')] = sectionMatch[2].trim();
   }
 
-  return data;
+  const dataWithLowerCaseProps = {};
+  for (const key in data) {
+    dataWithLowerCaseProps[key.toLowerCase()] = data[key];
+  }
+
+  return dataWithLowerCaseProps;
 }
 
 const processFile = async (file) => {
