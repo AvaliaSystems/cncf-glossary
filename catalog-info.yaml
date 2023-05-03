@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cncf-glossary-fork
+spec:
+  type: content
+  lifecycle: experimental
+  owner: dx-team
+
